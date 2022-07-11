@@ -5,15 +5,6 @@ var data1 = [1, 1, 1, 2, 2, 4, 1, 1 ]
 var data2 = [2, 1, 2, 2, 2, 8, 1, 1 ]
 var data3 = [3, 3, 3, 3, 2, 4, 1, 1 ]
 
-// console.log(data1(max))
-
-// function newData() {
-//     let databaru = array.filter(function(){
-//         return array.age === 20        
-//     })
-//     return databaru
-// }
-// console.log(newData());
 
 var filteredArray = data1.filter(function (x) {
     return Math.max

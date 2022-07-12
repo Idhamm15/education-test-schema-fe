@@ -22,12 +22,16 @@ console.log(string);
 //Output 2
 function Output2(angka) {
     let hasil = '';
-    for (let i = 0; i < angka; i++) {
-        for (let j = angka; j > i; j--) {
-            hasil += '*';
+    for (let i = angka; i > 0; i--) {
+        for (let j = 1; j <= angka; j++) {
+            if (j >= i) {
+                hasil += '*';
+            } else {
+                hasil += ' '
+            }
         }
         hasil += '\n';
     }
     return hasil;
 }
-console.log(Output2(6));
+console.log(Output2(5));
